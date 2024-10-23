@@ -33,7 +33,7 @@
         </PasswordBox>
         <TextBox x:Name="txtVisiblePassword" Grid.Row="4" Margin="0,10" Visibility="Collapsed" FontSize="16"/>
         <CheckBox x:Name="chkShowPassword" Content="Показать пароль"  Grid.Row="5" Margin="0,10" FontSize="16" Checked="chkShowPassword_Checked" Unchecked="chkShowPassword_Unchecked"/>
-        <Button Foreground="Red" Content="Войти" Grid.Row="6" Margin="294,10.2,316.6,11.2" Click="Login_Click" FontSize="16"/>
+        <Button Content="Войти" Grid.Row="6" Margin="294,10.2,316.6,11.2" Click="Login_Click" FontSize="16"/>
         <Button x:Name="regust" Content="Зарегистрироваться"  Margin="294,46.2,316.6,-25.4" FontSize="16" Grid.Row="6" Height="32" Click="regust_Click"/>
     </Grid>
 </Window>
