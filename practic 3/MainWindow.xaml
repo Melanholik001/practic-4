@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:practic_3"
         mc:Ignorable="d"
         Title="" Height="450" Width="800">
-    <Grid Margin="10">
+    <Grid Margin="10" Background="wheat">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
